@@ -33,8 +33,8 @@ public class BaseTest {
 		    
     	
         //driver = new ChromeDriver();
-        wait = new WebDriverWait(driver,15);
-        page = new PageGenerator(driver);
+       // wait = new WebDriverWait(driver,15);
+        //page = new PageGenerator(driver);
     }
 
     @AfterEach
