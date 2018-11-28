@@ -16,7 +16,7 @@ public class BaseTest {
     @BeforeEach
     public void classLevelSetup() {
 		 //System.setProperty("webdriver.chrome.driver","");
-			System.setProperty("webdriver.chrome.driver", "C:\\_ej_ico_0\\Selenium 22_10_2018\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "");
 
 		 
 		
