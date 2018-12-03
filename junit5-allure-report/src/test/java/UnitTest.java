@@ -22,7 +22,9 @@ public class UnitTest {
     	//UnitTest tester = new UnitTest(); // MyClass is tested
 
         // assert statements
-        assertEquals(0, 0, "10 x 0 must be 0");
+        //
+		assertEquals(0, 0, "10 x 0 must be 0");
+        
        
     }
 }
