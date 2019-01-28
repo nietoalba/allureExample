@@ -7,9 +7,11 @@ import pages.HomePage;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Epic("Pruebas Funcionales")
+//@Epic("Pruebas Funcionales")
 @Feature("Pruebas Funcionales")
 public class LoginTest extends BaseTest {
+	
+	@Epic("Pruebas Funcionales")
 
     @Test
     @Story("User tries to login the system with invalid username and invalid password.")
@@ -22,6 +24,7 @@ public class LoginTest extends BaseTest {
                 .ThenIVerifyPasswordErrorMessage(("E-posta adresiniz veya şifreniz hatalı"));*/
     	assertTrue(true);
     }
+	@Epic("Pruebas Funcionales")
 
     @Test
     @Story("User tries to login the system with empty username and invalid password.")
@@ -37,6 +40,7 @@ public class LoginTest extends BaseTest {
     	assertTrue(true);
 
     }
+	@Epic("Pruebas Funcionales")
 
     @Test
     @Story("This is a Fail Story.")
