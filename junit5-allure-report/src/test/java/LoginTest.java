@@ -8,7 +8,7 @@ import pages.HomePage;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Epic("Pruebas Funcionales")
-@Feature("Invalid Login Features")
+@Feature("Pruebas Funcionales")
 public class LoginTest extends BaseTest {
 
     @Test
