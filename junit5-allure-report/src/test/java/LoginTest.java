@@ -13,7 +13,6 @@ public class LoginTest extends BaseTest {
 	
 	@Epic("Pruebas Funcionales")
 
-    @Test
     @Story("User tries to login the system with invalid username and invalid password.")
     @Description("Invalid Login Test with Invalid Username and Invalid Password.")
     public void invalidLoginTest_InvalidUserNameInvalidPassword () {
