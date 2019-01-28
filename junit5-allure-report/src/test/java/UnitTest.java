@@ -10,7 +10,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
-@Epic("Unit Testing")
+@Epic("Pruebas Unitarias")
 @Feature("Unit testing Fase 1")
 
 public class UnitTest {
