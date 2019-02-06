@@ -16,9 +16,9 @@ public class BaseTest {
     @BeforeEach
     public void classLevelSetup() {
 		 //System.setProperty("webdriver.chrome.driver","");
-			System.setProperty("webdriver.chrome.driver", "chromedriver");
+		//	System.setProperty("webdriver.chrome.driver", "chromedriver");
 
-		 
+		
 		
 		 //headless chrome
 		ChromeOptions options = new ChromeOptions();
